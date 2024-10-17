@@ -1,0 +1,13 @@
+{
+  "name": "a2",
+  "version": "v1",
+  "description": "webware a24 assignment 2",
+  "author": "Nandita Kumar",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.1",
+    "mime": "^2.4.4"
+  }
+}

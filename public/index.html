@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>CS4241 Assignment 3</title>
+    <meta charset="utf-8">
+    <script src="js/main.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&family=Handjet:wght@100..900&display=swap" rel="stylesheet">
+    
+    <!-- get rid of favicon error -->
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+  </head>
+  <body>
+    <!-- <section>
+      <details>
+        <summary>Routine 1</summary>
+        <ul>
+          <li>task 1</li>
+          <li>task 2</li>
+        </ul>
+      </details>
+    </section> -->
+    <section>
+      <p>How to play: Enter a target number and try to move the slider to that value. Retry as many times as you'd like:)</p>
+
+      <table id="game">
+        <tr>
+          <th>Name</th>
+          <th>Target Number</th>
+          <th>Guess</th>
+        </tr>
+        <tr>
+          <td><input type="text" id="user" value="Anonymous"></td>
+          <td><input type="number" id="num" placeholder="1-100"></td>
+          <td><input type="range" id="guess" min="1" max="100"></td>
+          <td><button>submit</button></td>
+        </tr>
+      </table>
+
+      <table id="scoreboard"></table>
+    </section>
+
+    <section>
+      <table id="key">
+        <tr><th>Key</th></tr>
+        <tr><td class="correctGuess">Correct Guess</td></tr>
+        <tr><td class="fiveOrLess">Within 5</td></tr>
+        <tr><td class="fifteenOrLess">Within 15</td></tr>
+        <tr><td class="wrongGuess">More than 15</td></tr>
+      </table>
+    </section>
+  </body>
+</html>
